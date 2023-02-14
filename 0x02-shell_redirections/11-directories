@@ -1,2 +1,2 @@
 #!/bin/bash
-fing . -type d -not -name '.' | wc -l
+fin . -type d ! -path . -print  | wc -l
