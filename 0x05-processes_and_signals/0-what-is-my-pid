@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# PID du shell
+
+echo $$
